@@ -36,6 +36,7 @@ app.post('/paystack/pay', (req, res) => {
             return;
         }
         response = JSON.parse(body);
+        // console.log(response, error);
         res.redirect(response.data.authorization_url)
     });
 });
