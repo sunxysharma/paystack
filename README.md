@@ -13,3 +13,4 @@ You can clone the repos to have to try it out.
 from the root of the directory structure.
 * Run the app
 <code>node app</code>
+* API <a href='https://paystack.com/docs/api/'>paystack API</a>
